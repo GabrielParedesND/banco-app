@@ -13,7 +13,7 @@ function AccountList({ options }) {
           <Card>
             <div className='w-full space-y-3 font-semibold'>
               <div className='flex justify-between items-center'>
-                <p className=''>{option.label}</p>
+                <p>{option.label}</p>
                 <p>{option.number}</p>
               </div>
 

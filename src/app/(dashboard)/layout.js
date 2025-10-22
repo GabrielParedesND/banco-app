@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link';
 import { FaBell } from "react-icons/fa6";
 
 
@@ -16,7 +17,9 @@ const Layout = ({ children }) => {
             alt="Rounded avatar"
           />
 
-          <h1>Hola, Gabriel Paredes</h1>
+          <Link href="/inicio">
+            <h1>Hola, Gabriel Paredes</h1>
+          </Link>
         </div>
 
         <FaBell size={24} />

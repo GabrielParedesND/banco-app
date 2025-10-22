@@ -1,8 +1,13 @@
+import { CardViewer, TransactionList } from '@/components'
 import React from 'react'
 
 const MovimientosPage = () => {
   return (
-    <div>MovimientosPage</div>
+    <div>
+      <CardViewer />
+
+      <TransactionList />
+    </div>
   )
 }
 
